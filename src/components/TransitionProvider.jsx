@@ -41,7 +41,7 @@ const TransitionProvider = ({ children }) => {
         </div>
 
         {/* CHANGED THE H-[CALC(100VH-6REM)] TO FLEX-GROW */}
-        <div className="flex-grow ">{children}</div>
+        <div className="flex-grow h-[calc(100vh-6rem)]">{children}</div>
       </div>
     </AnimatePresence>
   );
